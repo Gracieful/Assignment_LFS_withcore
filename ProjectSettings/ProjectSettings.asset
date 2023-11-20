@@ -4,7 +4,7 @@
 PlayerSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 27
-  productGUID: 00000000000000000000000000000000
+  productGUID: 843b9b3940c270244a23d09c4a94d3ba
   AndroidProfiler: 0
   AndroidFilterTouchesWhenObscured: 0
   AndroidEnableSustainedPerformanceMode: 0
@@ -944,6 +944,7 @@ PlayerSettings:
   metroSplashScreenUseBackgroundColor: 1
   platformCapabilities:
     WindowsStoreApps:
+      EnterpriseAuthentication: False
       OfflineMapsManagement: False
       HumanInterfaceDevice: False
       Location: False
@@ -956,7 +957,6 @@ PlayerSettings:
       InternetClientServer: False
       VideosLibrary: False
       Objects3D: False
-      InternetClient: True
       RemoteSystem: False
       BlockedChatMessages: False
       PhoneCall: False
@@ -978,9 +978,9 @@ PlayerSettings:
       RecordedCallsFolder: False
       Contacts: False
       Proximity: False
+      InternetClient: True
       CodeGeneration: False
       BackgroundMediaPlayback: False
-      EnterpriseAuthentication: False
   metroTargetDeviceFamilies:
     Desktop: False
     Holographic: False
@@ -1039,7 +1039,7 @@ PlayerSettings:
   hmiLogStartupTiming: 0
   hmiCpuConfiguration: 
   apiCompatibilityLevel: 3
-  activeInputHandler: 0
+  activeInputHandler: 2
   windowsGamepadBackendHint: 0
   cloudProjectId: 
   framebufferDepthMemorylessMode: 0
