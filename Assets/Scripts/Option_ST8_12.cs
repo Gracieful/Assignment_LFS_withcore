@@ -4,6 +4,10 @@ using UnityEngine;
 
 public class Option_ST8_12 : MonoBehaviour
 
+//Refrences
+//Image: https://digimoncard.io/card/v-wing-blade-st8-12
+//Asset: 
+
 //There's different types of cards in the digimon TCG. Eggs, Monsters, Options, Tamers Trainers. 
 
 //I'm 100% sure how to use the classes so I have it commented out for now just in case 

@@ -4,6 +4,10 @@ using UnityEngine;
 
 public class Interactions_ST8_06 : MonoBehaviour
 
+//Refrences
+//Image: https://digimoncard.io/card/Coredramon-st8-06
+//Asset: 
+
 //There's different types of cards in the digimon TCG. Eggs, Monsters, Options, Tamers Trainers. 
 
 //I'm 100% sure how to use the classes so I have it commented out for now just in case 
@@ -11,7 +15,7 @@ public class Interactions_ST8_06 : MonoBehaviour
 //I've also included all the card data as a comment before I've figured out where it needs to go 
 
 //public class Digimon
-//card name: Veedramon
+//card name: Coredramon
 //DP: 5000
 //Play Cost: 6
 //Digivolve cost: Lvl3: 2

@@ -4,6 +4,10 @@ using UnityEngine;
 
 public class Interactions_ST8_05 : MonoBehaviour
 
+//Refrences
+//Image: https://digimoncard.io/card/veedramon-st8-05
+//Asset: 
+
 //There's different types of cards in the digimon TCG. Eggs, Monsters, Options, Tamers Trainers. 
 
 //I'm 100% sure how to use the classes so I have it commented out for now just in case 

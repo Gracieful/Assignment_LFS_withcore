@@ -4,6 +4,10 @@ using UnityEngine;
 
 public class Interactions_BT1_028 : MonoBehaviour
 
+//Refrences
+//Image: https://www.cardmarket.com/en/Digimon/Products/Singles/Starter-Deck-UlforceVeedramon/Elecmon-BT1-028-AA
+//Asset: 
+
 //There's different types of cards in the digimon TCG. Eggs, Monsters, Options, Tamers Trainers. 
 //I'm 100% sure how to use the classes so I have it commented out for now just in case 
 

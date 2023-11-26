@@ -571,7 +571,7 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0.3426, y: 0, z: -0.511}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
+  m_ConstrainProportionsScale: 1
   m_Children:
   - {fileID: 2085714793}
   m_Father: {fileID: 0}
@@ -3800,7 +3800,7 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: 1386e54c790a40c4bbdcaee6818f0ab1,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0.0297
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 1386e54c790a40c4bbdcaee6818f0ab1,
         type: 3}
@@ -7751,7 +7751,7 @@ GameObject:
   - component: {fileID: 2085714794}
   - component: {fileID: 2085714797}
   m_Layer: 0
-  m_Name: Sphere (1)
+  m_Name: Gabumon
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -7765,8 +7765,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2085714792}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.001, y: 0.0576, z: 0.00976032}
-  m_LocalScale: {x: 0.099999994, y: 0.099999994, z: 0.099999994}
+  m_LocalPosition: {x: 0, y: 0.0494, z: 0}
+  m_LocalScale: {x: 0.3, y: 0.3, z: 0.3}
   m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 116646509}
@@ -7842,7 +7842,7 @@ MeshFilter:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2085714792}
-  m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
+  m_Mesh: {fileID: -1543475324468191122, guid: 1386e54c790a40c4bbdcaee6818f0ab1, type: 3}
 --- !u!114 &2085714797
 MonoBehaviour:
   m_ObjectHideFlags: 0
