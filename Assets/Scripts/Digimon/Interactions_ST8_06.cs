@@ -2,10 +2,9 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Interactions_ST8_08 : MonoBehaviour
 
 //Refrences
-//Image: https://digimoncard.io/card/AeroVeedramon-st8-08
+//Image: https://digimoncard.io/card/Coredramon-st8-06
 //Asset: 
 
 //There's different types of cards in the digimon TCG. Eggs, Monsters, Options, Tamers Trainers. 
@@ -15,13 +14,19 @@ public class Interactions_ST8_08 : MonoBehaviour
 //I've also included all the card data as a comment before I've figured out where it needs to go 
 
 //public class Digimon
-//card name: AeroVeedramon
-//DP: 7000
-//Play Cost: 7
-//Digivolve cost: Lvl4: 3
-//Level: 5
-//Effect: Jamming:(This Digimon can't be deleted in battles against Secuirty Digimon.)
-//Effect:  Your Turn: While you have 8 or more cards in your hand, this Digimon gains Security Attack +1. (This Digimon checks 1 additional security card.)
+//card name: Coredramon
+//DP: 5000
+//Play Cost: 6
+//Digivolve cost: Lvl3: 2
+//Level: 4
+//Effect: Security: At the end of the battle, play this card without paying it's memory cost. 
+//Effect: On Play: Trigger Draw 2. ( Draw 2 cards from your deck.)
+
+namespace Digimon.Coredramon_ST8_06
+// I've included the serial for each card in the name space as there's different versions of certain digimon 
+{
+
+public class Interactions_ST8_06 : MonoBehaviour
 
 {
     // Start is called before the first frame update
@@ -35,4 +40,5 @@ public class Interactions_ST8_08 : MonoBehaviour
     {
         
     }
+}
 }

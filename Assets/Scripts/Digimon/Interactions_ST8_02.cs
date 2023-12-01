@@ -2,10 +2,8 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class ImagetargetInteractions_ST2_03 : MonoBehaviour
-
 //Refrences
-//Image: https://digimoncard.io/card/gabumon-st2-03
+//Image: https://digimoncard.io/card/gabumon-st8-02
 //Asset: https://www.thingiverse.com/thing:3786918
 
 //There's different types of cards in the digimon TCG. Eggs, Monsters, Options, Tamers Trainers. 
@@ -19,8 +17,13 @@ public class ImagetargetInteractions_ST2_03 : MonoBehaviour
 //Play Cost: 3
 //Digivolve cost: Lvl2: 0
 //Level: 3
-//Effect: When Attacking: Trash the digivolution card at the bottom of your opponents Digimon with a level 5 or less. 
+//Effect: All turns: While you have 8 or more cards in your hand, this Digimon gets +1000 DP
 
+namespace Digimon.Gabumon_ST8_02
+// I've included the serial for each card in the name space as there's different versions of certain digimon 
+{
+
+public class Interactions_ST8_02 : MonoBehaviour
 
 {
     // Start is called before the first frame update
@@ -34,4 +37,5 @@ public class ImagetargetInteractions_ST2_03 : MonoBehaviour
     {
         
     }
+}
 }

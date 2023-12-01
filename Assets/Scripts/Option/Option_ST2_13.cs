@@ -2,10 +2,13 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Interactions_ST8_09 : MonoBehaviour
+namespace Option.HammerSpark_ST2_13
+
+{
+public class Option_ST2_13 : MonoBehaviour
 
 //Refrences
-//Image: https://digimoncard.io/card/Slayerdramon-st8-09#
+//Image: https://www.cardmarket.com/en/Digimon/Products/Singles/Starter-Deck-UlforceVeedramon/Hammer-Spark-ST2-13-AA
 //Asset: 
 
 //There's different types of cards in the digimon TCG. Eggs, Monsters, Options, Tamers Trainers. 
@@ -14,14 +17,11 @@ public class Interactions_ST8_09 : MonoBehaviour
 
 //I've also included all the card data as a comment before I've figured out where it needs to go 
 
-//public class Digimon
-//card name: Slayerdramon
-//DP: 11000
-//Play Cost: 11
-//Digivolve cost: Lvl5: 3
-//Level: 6
-//Effect: When Digivolving: This Digimon gains Security Attack +1 for the turn. (This Digimon checks 1 additional Security card.)
-//Effect:  Your Turn: This card is unblockable. 
+//public class Option
+//card name: Hammer Spark
+//Play Cost: 0
+//Main: Gain 1 Memory
+//Effect:  Security: Gain 2 memory. 
 
 {
     // Start is called before the first frame update
@@ -35,4 +35,5 @@ public class Interactions_ST8_09 : MonoBehaviour
     {
         
     }
+}
 }
