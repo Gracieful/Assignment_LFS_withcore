@@ -21,8 +21,7 @@ using UnityEngine;
 //Effect: Jamming:(This Digimon can't be deleted in battles against Secuirty Digimon.)
 //Effect:  Your Turn: While you have 8 or more cards in your hand, this Digimon gains Security Attack +1. (This Digimon checks 1 additional security card.)
 
-namespace Digimon.AeroVeedramon_ST8_08
-// I've included the serial for each card in the name space as there's different versions of certain digimon 
+namespace Digimon
 {
 
 public class Interactions_ST8_08 : MonoBehaviour

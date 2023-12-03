@@ -22,8 +22,7 @@ using UnityEngine;
 //Level: 3
 //Effect: -- 
 
-namespace Digimon.Gomamon_ST2_02 
-// I've included the serial for each card in the name space as there's different versions of certain digimon 
+namespace Digimon
 {
 
 public class Interactions_ST2_02 : MonoBehaviour

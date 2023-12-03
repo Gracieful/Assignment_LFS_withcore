@@ -21,8 +21,7 @@ using UnityEngine;
 //Effect: When Digivolving: This Digimon gains Security Attack +1 for the turn. (This Digimon checks 1 additional Security card.)
 //Effect:  Your Turn: This card is unblockable. 
 
-namespace Digimon.Slayerdramon_ST8_09
-// I've included the serial for each card in the name space as there's different versions of certain digimon 
+namespace Digimon
 {
 
 public class Interactions_ST8_09 : MonoBehaviour

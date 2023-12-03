@@ -76,11 +76,12 @@ public class Gamemanager : MonoBehaviour
 
     //Everything else 
 
-    public void AddScore(int points)
+    public void AddScore(int DP_Value)
     {
-        score += points;
+        score = DP_Value;
         uIManager.UpdateScoreDisplay(score);
-        AudioManager.Instance.PlaySoundEffect("ScoreSoundEffect");
+        
+        //AudioManager.Instance.PlaySoundEffect("ScoreSoundEffect");
         //You need to add a sound called sound effect for here. It probably won't work for what you plan to do, but it was part of the lecture 
     }
     public void ResetScore()

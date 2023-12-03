@@ -22,8 +22,7 @@ using UnityEngine;
 //Effect: When Digivolving Return 1 of your opponents level 4 or lower Digimon to it's owners hand. transh all of the digivolution cards of that Digimon.
 //Effect: When Attacking: Once Per Turn: If you have 8 or more cards in your hand, unsuspend this Digimon.
 
-namespace Digimon.UlforceVeedramon_ST8_10
-// I've included the serial for each card in the name space as there's different versions of certain digimon 
+namespace Digimon
 {
 
 public class Interactions_ST8_10 : MonoBehaviour

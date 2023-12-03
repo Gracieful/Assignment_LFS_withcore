@@ -21,8 +21,7 @@ using UnityEngine;
 //Level: 5
 //Effect: Blocker (When an opponent's Digimon attacks, you may suspend this Digimon to force the opponent to attack it instead.)
 
-namespace Digimon.Wingdramon_ST8_07
-// I've included the serial for each card in the name space as there's different versions of certain digimon 
+namespace Digimon
 {
 
 public class Interactions_ST8_07 : MonoBehaviour

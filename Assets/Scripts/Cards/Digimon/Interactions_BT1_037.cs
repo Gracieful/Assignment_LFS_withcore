@@ -20,8 +20,7 @@ using UnityEngine;
 //Level: 4
 //Effect: -- 
 
-namespace Digimon.Gorillamon_BT1_037
-// I've included the serial for each card in the name space as there's different versions of certain digimon 
+namespace Digimon
 
 {
 public class Interactions_BT1_037 : MonoBehaviour

@@ -19,8 +19,7 @@ using UnityEngine;
 //Level: 3
 //Effect: On Play: Reveal the top 3 cards of your deck. Add 1 Digimon card with [Dramon] in it's name among them to your hand. Place the remaining cards at the bottom of your deck in any order.
 
-namespace Digimon.Dracomon_ST8_03
-// I've included the serial for each card in the name space as there's different versions of certain digimon 
+namespace Digimon
 {
 
 public class Interactions_ST8_03 : MonoBehaviour

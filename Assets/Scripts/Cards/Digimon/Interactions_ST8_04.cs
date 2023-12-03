@@ -21,8 +21,7 @@ using UnityEngine;
 //Effect: Your Turn: If your opponent has a level 6 or higher Digimon in play, this Digimon can digivole into an [UlforceVeedramon] in your hand for a memory cost of 4, ignoring it's digivolution requirements. 
 //Effect: When Attacking: If you have 7 or fewer cards in your hand, trigger Draw 1. ( Draw 1 card from your deck.)
 
-namespace Digimon.Veemon_ST8_04
-// I've included the serial for each card in the name space as there's different versions of certain digimon 
+namespace Digimon
 {
 
 public class Interactions_ST8_04 : MonoBehaviour

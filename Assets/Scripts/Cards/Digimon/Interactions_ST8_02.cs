@@ -19,8 +19,7 @@ using UnityEngine;
 //Level: 3
 //Effect: All turns: While you have 8 or more cards in your hand, this Digimon gets +1000 DP
 
-namespace Digimon.Gabumon_ST8_02
-// I've included the serial for each card in the name space as there's different versions of certain digimon 
+namespace Digimon
 {
 
 public class Interactions_ST8_02 : MonoBehaviour

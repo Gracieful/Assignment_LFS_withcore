@@ -22,8 +22,7 @@ using UnityEngine;
 //Level: 4
 //Effect: When Attacking: If you have 8 or more cards in your hand, return 1 of your opponent's level 3 Digimon to its owners hand. Trash all the digivolutions cards of that Digimon. 
 
-namespace Digimon.Veedramon_ST8_05
-// I've included the serial for each card in the name space as there's different versions of certain digimon 
+namespace Digimon
 {
 
 public class Interactions_ST8_05 : MonoBehaviour

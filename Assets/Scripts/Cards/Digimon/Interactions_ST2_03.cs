@@ -20,11 +20,10 @@ using UnityEngine;
 //Level: 3
 //Effect: When Attacking: Trash the digivolution card at the bottom of your opponents Digimon with a level 5 or less. 
 
-namespace Digimon.Gabumon_ST2_03
-// I've included the serial for each card in the name space as there's different versions of certain digimon 
+namespace Digimon
 {
     
-public class ImagetargetInteractions_ST2_03 : MonoBehaviour
+public class Interactions_ST2_03 : MonoBehaviour
 
 {
     // Start is called before the first frame update
