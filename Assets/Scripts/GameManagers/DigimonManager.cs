@@ -11,13 +11,14 @@ namespace Digimon
 
 public class DigimonManager : MonoBehaviour
 {
-     public static DigimonManager Instance;
-
+    public static DigimonManager Instance;
     public TMP_Text NameText;
     public TMP_Text LevelText;
     public TMP_Text EffectText;
     public TMP_Text EvolutionText;
     public TMP_Text CostText;
+    //Had below to make the info box appear and dissapear but it didn't work
+    //private bool isAppearing = false;
      
     //I'm going to have to do the below for every digimon xD  
     //Will probably need another one for eggs, options and trainers
@@ -35,7 +36,9 @@ public class DigimonManager : MonoBehaviour
     [SerializeField] private Interactions_ST8_08  AeroVeedramon_ST8_08;
     [SerializeField] private Interactions_ST8_09 Slayerdramon_ST8_09;
     [SerializeField] private Interactions_ST8_10 UlforceVeedramon_ST8_10;
-
+//Gorillamon doesn't work
+//Monzaemon doesn't work either. Keep getting the same error where instance is not set to an object 
+//Maybe it's an asset issue? It wasn't
     void Awake()
     {
         if(Instance == null)
@@ -61,12 +64,15 @@ public class DigimonManager : MonoBehaviour
     {
         if(Input.GetKeyDown(KeyCode.E))
         {
-            DisplayName(Elecmon_BT1_028.NameText);
-            DisplayDP(Elecmon_BT1_028.DPText);
-            DisplayCost(Elecmon_BT1_028.CostText);
-            DisplayEvolution(Elecmon_BT1_028.EvolutionText);
-            DisplayLevel(Elecmon_BT1_028.LevelText);
-            DisplayEffectText(Gorillamon_BT1_037.EffectText);
+            DisplayName();
+            DisplayDP();
+            DisplayCost();
+            DisplayEvolution();
+            DisplayLevel();
+            DisplayEffectText();
+            //below doesn't work but I was playing with getting the info box to appear and dissapear when called 
+           // ToggleInfo(Elecmon_BT1_028.Info_Elecmon);
+    
             
             
             //This will only get the text from Elecmon to display, but when card appears on screen. Works as a tester
@@ -75,11 +81,7 @@ public class DigimonManager : MonoBehaviour
 
             //changed below to DisplayName1 as I was getting an ambigous error. Below was to test if gorrillamon could be called
             //currently it can't. Could it be because it's got the same names as Elecmon? 
-            
-        if(Input.GetKeyDown(KeyCode.G))
-        {
-            DisplayName1(Gorillamon_BT1_037.NameText);
-        }
+
 // else works but is commented out because it would keep the error appearing in the scrip when E wasn't pressed 
 
  //       else
@@ -94,40 +96,38 @@ public class DigimonManager : MonoBehaviour
     //Everything else 
 
     //elecmon is the tester. Gorillamon was set up the same way but I'm not sure why he's not working when used 
-         public void DisplayName(TMPro.TMP_Text NameText)
+        public void DisplayName()
     {
         Elecmon_BT1_028.UpdateNameDisplay();
     }
-        public void DisplayDP(TMPro.TMP_Text DPText)
-    {
-        Elecmon_BT1_028.UpdateDPDisplay(DPText);
-   
-    }
-        public void DisplayLevel(TMPro.TMP_Text LevelText)
+        public void DisplayLevel()
     {
         Elecmon_BT1_028.UpdateLevelDisplay();
     
     }
-        public void DisplayCost(TMPro.TMP_Text CostText)
+        public void DisplayCost()
     {
         Elecmon_BT1_028.UpdateCostDisplay();
-        
     }
-        public void DisplayEvolution(TMPro.TMP_Text EvolutionText)
+        public void DisplayEvolution()
     {
         Elecmon_BT1_028.UpdateEvolutionDisplay();
     }
     // When changed to Gorillamon it comes up blank. I originally thought it was cause TMP wasn't connected to the asset but it's still not working 
-          public void DisplayEffectText(TMPro.TMP_Text EffectText)
+          public void DisplayEffectText()
     {
         Elecmon_BT1_028.UpdateEffectDisplay();
        
     }
-
-        public void DisplayName1(TMPro.TMP_Text NameText)
+           public void DisplayDP()
     {
-        Gorillamon_BT1_037.UpdateNameDisplay1();
+        Elecmon_BT1_028.UpdateDPDisplay();
+   
     }
+//        public void ToggleInfo(GameObject Info_Elecmon)
+  //  {
+//        Elecmon_BT1_028.ToggleInfo(isAppearing);
+//    }
 
 
 }

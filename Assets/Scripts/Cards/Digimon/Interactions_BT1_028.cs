@@ -36,7 +36,7 @@ public class Interactions_BT1_028 : MonoBehaviour
     public TMP_Text EvolutionText;
     public TMP_Text CostText;
 
-    public void UpdateDPDisplay(TMP_Text DPText)
+    public void UpdateDPDisplay()
     {
         DPText.text = "DP:" + 3000;
     }
@@ -60,6 +60,7 @@ public class Interactions_BT1_028 : MonoBehaviour
     {
         CostText.text = "Play Cost:" + "2 Memory";
     }
+
         // Start is called before the first frame update
         //  void Start()
         //{

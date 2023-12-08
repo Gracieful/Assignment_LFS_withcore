@@ -41,8 +41,7 @@ public class Interactions_BT1_037 : MonoBehaviour
     {
         DPText.text = "DP:" + 6000;
     }
-
-     public void UpdateNameDisplay1()
+     public void UpdateNameDisplay()
     {
         NameText.text = "Name:" + "Gorillamon";
     }
