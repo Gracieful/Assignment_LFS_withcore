@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using TMPro;
 
 
 //Refrences
@@ -26,16 +27,51 @@ namespace Digimon
 public class Interactions_ST2_03 : MonoBehaviour
 
 {
-    // Start is called before the first frame update
-    void Start()
+     //Below I used the technique of displaying text as shown in lecture 6. 
+    //I know I'll need to create another script that will work like the UI script but for calling all the digimon information
+    //Currently not working as there needs to be code to call the text to display 
+    public TMP_Text DPText;
+    public TMP_Text NameText;
+    public TMP_Text LevelText;
+    public TMP_Text EffectText;
+    public TMP_Text EvolutionText;
+    public TMP_Text CostText;
+
+    public void UpdateDPDisplay(TMP_Text DPText)
     {
-        
+        DPText.text = "DP:" + 3000;
     }
 
-    // Update is called once per frame
-    void Update()
+     public void UpdateNameDisplay()
     {
-        
+        NameText.text = "Name:" + "Elecmon";
     }
+      public void UpdateLevelDisplay()
+    {
+        LevelText.text = "Level:" + "3";
+    }
+        public void UpdateEffectDisplay()
+    {
+        EffectText.text = "Effect:" + "--";
+    }
+      public void UpdateEvolutionDisplay()
+    {
+        EvolutionText.text = "Digivolve cost:" + "Lvl2:0";
+    }
+        public void UpdateCostDisplay()
+    {
+        CostText.text = "Play Cost:" + "2 Memory";
+    }
+           // Start is called before the first frame update
+        //  void Start()
+        //{
+
+        //}
+
+        // Update is called once per frame
+        //void Update()
+        //{
+
+        //}
 }
 }

@@ -61,53 +61,72 @@ public class DigimonManager : MonoBehaviour
     {
         if(Input.GetKeyDown(KeyCode.E))
         {
-            DisplayDP(Elecmon_BT1_028.DPText);
             DisplayName(Elecmon_BT1_028.NameText);
-            DisplayLevel(Elecmon_BT1_028.LevelText);
-            DisplayEffectText(Elecmon_BT1_028.EffectText);
-            DisplayEvolution(Elecmon_BT1_028.EvolutionText);
+            DisplayDP(Elecmon_BT1_028.DPText);
             DisplayCost(Elecmon_BT1_028.CostText);
+            DisplayEvolution(Elecmon_BT1_028.EvolutionText);
+            DisplayLevel(Elecmon_BT1_028.LevelText);
+            DisplayEffectText(Gorillamon_BT1_037.EffectText);
+            
+            
             //This will only get the text from Elecmon to display, but when card appears on screen. Works as a tester
             //I'll need to create a variable that captures the card being picked up that will fill in where the card name is 
         }  
-        else
-        {
-            Debug.LogWarning("DP Error");
+
+            //changed below to DisplayName1 as I was getting an ambigous error. Below was to test if gorrillamon could be called
+            //currently it can't. Could it be because it's got the same names as Elecmon? 
             
+        if(Input.GetKeyDown(KeyCode.G))
+        {
+            DisplayName1(Gorillamon_BT1_037.NameText);
         }
+// else works but is commented out because it would keep the error appearing in the scrip when E wasn't pressed 
+
+ //       else
+ //       {
+ //           Debug.LogWarning("DP Error");
+            
+ //       }
+
+
         
     }
     //Everything else 
-   
+
+    //elecmon is the tester. Gorillamon was set up the same way but I'm not sure why he's not working when used 
+         public void DisplayName(TMPro.TMP_Text NameText)
+    {
+        Elecmon_BT1_028.UpdateNameDisplay();
+    }
         public void DisplayDP(TMPro.TMP_Text DPText)
     {
         Elecmon_BT1_028.UpdateDPDisplay(DPText);
-        //elecmon is the only digimon I have eveything set up for. Getting him to work before testing everything to work
-    }
-        public void DisplayName(TMPro.TMP_Text NameText)
-    {
-        Elecmon_BT1_028.UpdateNameDisplay();
-        //elecmon is the only digimon I have eveything set up for. Getting him to work before testing everything to work
+   
     }
         public void DisplayLevel(TMPro.TMP_Text LevelText)
     {
         Elecmon_BT1_028.UpdateLevelDisplay();
-        //elecmon is the only digimon I have eveything set up for. Getting him to work before testing everything to work
-    }
-         public void DisplayEffectText(TMPro.TMP_Text EffectText)
-    {
-        Elecmon_BT1_028.UpdateEffectDisplay();
-        //elecmon is the only digimon I have eveything set up for. Getting him to work before testing everything to work
-    }
-        public void DisplayEvolution(TMPro.TMP_Text EvolutionText)
-    {
-        Elecmon_BT1_028.UpdateEvolutionDisplay();
-        //elecmon is the only digimon I have eveything set up for. Getting him to work before testing everything to work
+    
     }
         public void DisplayCost(TMPro.TMP_Text CostText)
     {
         Elecmon_BT1_028.UpdateCostDisplay();
-        //elecmon is the only digimon I have eveything set up for. Getting him to work before testing everything to work
+        
+    }
+        public void DisplayEvolution(TMPro.TMP_Text EvolutionText)
+    {
+        Elecmon_BT1_028.UpdateEvolutionDisplay();
+    }
+    // When changed to Gorillamon it comes up blank. I originally thought it was cause TMP wasn't connected to the asset but it's still not working 
+          public void DisplayEffectText(TMPro.TMP_Text EffectText)
+    {
+        Elecmon_BT1_028.UpdateEffectDisplay();
+       
+    }
+
+        public void DisplayName1(TMPro.TMP_Text NameText)
+    {
+        Gorillamon_BT1_037.UpdateNameDisplay1();
     }
 
 

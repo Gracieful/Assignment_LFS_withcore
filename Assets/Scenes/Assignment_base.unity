@@ -1630,6 +1630,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 74fc9832781e6dc40b86d30f37211d83, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  DPText: {fileID: 717963226}
+  NameText: {fileID: 1950182598}
+  LevelText: {fileID: 89056359}
+  EffectText: {fileID: 1632770564}
+  EvolutionText: {fileID: 1318871988}
+  CostText: {fileID: 2122085803}
 --- !u!4 &271015689 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 77e9d1d1eda32f64fa175ab01a249ebf,
@@ -1648,6 +1654,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 199c990072372724ca6797a5d31da833, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  DPText: {fileID: 717963226}
+  NameText: {fileID: 1950182598}
+  LevelText: {fileID: 89056359}
+  EffectText: {fileID: 1632770564}
+  EvolutionText: {fileID: 1318871988}
+  CostText: {fileID: 2122085803}
 --- !u!1 &292487658 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 4d848f7a40193c04dab44f17fe3613f9,
@@ -2363,6 +2375,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1ca4ac8834d49fb4fa03c7d9f6fe2149, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  DPText: {fileID: 717963226}
+  NameText: {fileID: 1950182598}
+  LevelText: {fileID: 89056359}
+  EffectText: {fileID: 1632770564}
+  EvolutionText: {fileID: 1318871988}
+  CostText: {fileID: 2122085803}
 --- !u!1 &467346991
 GameObject:
   m_ObjectHideFlags: 0
@@ -2708,6 +2726,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6fea86ee7ddb69045ac18f996dc83ca5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  DPText: {fileID: 717963226}
+  NameText: {fileID: 1950182598}
+  LevelText: {fileID: 89056359}
+  EffectText: {fileID: 1632770564}
+  EvolutionText: {fileID: 1318871988}
+  CostText: {fileID: 2122085803}
 --- !u!1 &513269516
 GameObject:
   m_ObjectHideFlags: 0
@@ -2927,6 +2951,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 96a78527c14b2074ca82f866a9d67111, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  DPText: {fileID: 717963226}
+  NameText: {fileID: 1950182598}
+  LevelText: {fileID: 89056359}
+  EffectText: {fileID: 1632770564}
+  EvolutionText: {fileID: 1318871988}
+  CostText: {fileID: 2122085803}
 --- !u!1 &600229547
 GameObject:
   m_ObjectHideFlags: 0
@@ -3646,6 +3676,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8dea3a4dd259e7a4786b1016b7c1b3d9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  DPText: {fileID: 717963226}
+  NameText: {fileID: 1950182598}
+  LevelText: {fileID: 89056359}
+  EffectText: {fileID: 1632770564}
+  EvolutionText: {fileID: 1318871988}
+  CostText: {fileID: 2122085803}
 --- !u!1 &784328712
 GameObject:
   m_ObjectHideFlags: 0
@@ -4471,6 +4507,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4ddd563631e015c4b9d2b979875dcbfc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  DPText: {fileID: 717963226}
+  NameText: {fileID: 1950182598}
+  LevelText: {fileID: 89056359}
+  EffectText: {fileID: 1632770564}
+  EvolutionText: {fileID: 1318871988}
+  CostText: {fileID: 2122085803}
 --- !u!1001 &949566876
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4790,6 +4832,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 220ae25ca74a12845847d86815f729b9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  DPText: {fileID: 717963226}
+  NameText: {fileID: 1950182598}
+  LevelText: {fileID: 89056359}
+  EffectText: {fileID: 1632770564}
+  EvolutionText: {fileID: 1318871988}
+  CostText: {fileID: 2122085803}
 --- !u!1 &1070006338
 GameObject:
   m_ObjectHideFlags: 0
@@ -5350,6 +5398,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5cb87171b02086448a403a7f0ee1e583, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  DPText: {fileID: 717963226}
+  NameText: {fileID: 1950182598}
+  LevelText: {fileID: 89056359}
+  EffectText: {fileID: 1632770564}
+  EvolutionText: {fileID: 1318871988}
+  CostText: {fileID: 2122085803}
 --- !u!1 &1131454387
 GameObject:
   m_ObjectHideFlags: 0
@@ -6672,6 +6726,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6cba45f8b6f94524faf3f6399b40f7ea, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  DPText: {fileID: 717963226}
+  NameText: {fileID: 1950182598}
+  LevelText: {fileID: 89056359}
+  EffectText: {fileID: 1632770564}
+  EvolutionText: {fileID: 1318871988}
+  CostText: {fileID: 2122085803}
 --- !u!1 &1528052109
 GameObject:
   m_ObjectHideFlags: 0
@@ -6790,6 +6850,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5ecb9706bc39cdf4c99836a07bb7c054, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  DPText: {fileID: 717963226}
+  NameText: {fileID: 1950182598}
+  LevelText: {fileID: 89056359}
+  EffectText: {fileID: 1632770564}
+  EvolutionText: {fileID: 1318871988}
+  CostText: {fileID: 2122085803}
 --- !u!1001 &1530501709
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -8571,6 +8637,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9abbe0188f48eeb4fb8c9587fe051bf0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  DPText: {fileID: 717963226}
+  NameText: {fileID: 1950182598}
+  LevelText: {fileID: 89056359}
+  EffectText: {fileID: 1632770564}
+  EvolutionText: {fileID: 1318871988}
+  CostText: {fileID: 2122085803}
 --- !u!1 &1923138885
 GameObject:
   m_ObjectHideFlags: 0
@@ -8949,6 +9021,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 29e65b000204bce478e2311bec3bbbc9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  DPText: {fileID: 717963226}
+  NameText: {fileID: 1950182598}
+  LevelText: {fileID: 89056359}
+  EffectText: {fileID: 1632770564}
+  EvolutionText: {fileID: 1318871988}
+  CostText: {fileID: 2122085803}
 --- !u!1 &2092755265
 GameObject:
   m_ObjectHideFlags: 0
