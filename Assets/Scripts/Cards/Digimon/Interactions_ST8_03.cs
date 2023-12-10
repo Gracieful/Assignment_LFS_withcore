@@ -5,7 +5,7 @@ using TMPro;
 
 //Refrences
 //Image: https://digimoncard.io/card/dracomon-st8-03
-//Asset: 
+//Asset: https://sketchfab.com/3d-models/mobile-digimon-links-dracomon-cce6434d5644436f9e2fa198b38dd6f2
 
 //There's different types of cards in the digimon TCG. Eggs, Monsters, Options, Tamers Trainers. 
 //I'm 100% sure how to use the classes so I have it commented out for now just in case 

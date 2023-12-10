@@ -93,6 +93,8 @@ public class DigimonManager : MonoBehaviour
 
         
     }
+//Changed the asset for elecmon and now it's broken and I'm getting the same error as gorillamon. So I'm assuming it's asset related 
+
     //Everything else 
 
     //elecmon is the tester. Gorillamon was set up the same way but I'm not sure why he's not working when used 
