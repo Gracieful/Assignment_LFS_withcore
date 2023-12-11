@@ -6,7 +6,7 @@ public class Egg_Interactions_ST2_01 : MonoBehaviour
 
 //Refrences
 //Image: https://digimoncard.io/card/tsunomon-st2-01
-//Asset: https://www.thingiverse.com/thing:3549822
+//Asset: https://www.models-resource.com/mobile/digimonlinkz/model/21385/
 
 //There's different types of cards in the digimon TCG. Eggs, Monsters, Options, Tamers Trainers. 
 //I'm 100% sure how to use the classes so I have it commented out for now just in case 

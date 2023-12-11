@@ -6,7 +6,8 @@ using TMPro;
 
 //Refrences
 //Image: https://digimoncard.io/card/gomamon-st2-02
-//Asset: https://www.thingiverse.com/thing:5162043
+//Asset: https://www.models-resource.com/pc_computer/digimonmasters/model/5113/
+
 
 
 //There's different types of cards in the digimon TCG. Eggs, Monsters, Options, Tamers Trainers. 

@@ -5,7 +5,7 @@ using TMPro;
 
 //Refrences
 //Image: https://digimoncard.io/card/wingdramon-st8-07
-//Asset: 
+//Asset: https://www.models-resource.com/mobile/digimonlinkz/model/21292/
 
 //There's different types of cards in the digimon TCG. Eggs, Monsters, Options, Tamers Trainers. 
 
