@@ -79,6 +79,16 @@ public class DigimonManager : MonoBehaviour
             //I'll need to create a variable that captures the card being picked up that will fill in where the card name is 
         }  
 
+//Got the below from co-pilot after asking it to check the following error "NullReferenceException: Object reference not set to an instance of an object Digimon.DigimonManager.Update () (at Assets/Scripts/GameManagers/DigimonManager.cs:67)"
+ //       if (NameText != null)
+ //       {
+ //           Elecmon_BT1_028.NameText = NameText;
+ //       }
+ //       else
+ //       {
+ //           Debug.LogWarning("Name Error");
+ //       }
+
             //changed below to DisplayName1 as I was getting an ambigous error. Below was to test if gorrillamon could be called
             //currently it can't. Could it be because it's got the same names as Elecmon? 
 
@@ -90,36 +100,31 @@ public class DigimonManager : MonoBehaviour
             
  //       }
 
-
-        
     }
 //Changed the asset for elecmon and now it's broken and I'm getting the same error as gorillamon. So I'm assuming it's asset related 
+//The reason it broke when i updated the asset is because I had the assets connected to the manager in Unitys UI. 
+//The reason nothing else was working, was because I had nothing else connected. 
 
     //Everything else 
-
-    //elecmon is the tester. Gorillamon was set up the same way but I'm not sure why he's not working when used 
         public void DisplayName()
     {
-        Elecmon_BT1_028.UpdateNameDisplay();
+        Gorillamon_BT1_037.UpdateNameDisplay();
     }
         public void DisplayLevel()
     {
-        Elecmon_BT1_028.UpdateLevelDisplay();
-    
+        Gorillamon_BT1_037.UpdateLevelDisplay();
     }
         public void DisplayCost()
     {
-        Elecmon_BT1_028.UpdateCostDisplay();
+        Gorillamon_BT1_037.UpdateCostDisplay();
     }
         public void DisplayEvolution()
     {
-        Elecmon_BT1_028.UpdateEvolutionDisplay();
+        Gorillamon_BT1_037.UpdateEvolutionDisplay();
     }
-    // When changed to Gorillamon it comes up blank. I originally thought it was cause TMP wasn't connected to the asset but it's still not working 
           public void DisplayEffectText()
     {
-        Elecmon_BT1_028.UpdateEffectDisplay();
-       
+        Gorillamon_BT1_037.UpdateEffectDisplay();
     }
            public void DisplayDP()
     {

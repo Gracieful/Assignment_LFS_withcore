@@ -23,7 +23,7 @@ using TMPro;
 //Effect: Security: At the end of the battle, play this card without paying it's memory cost. 
 //Effect: On Play: Trigger Draw 2. ( Draw 2 cards from your deck.)
 
-namespace Digimon
+namespace Digimon 
 {
 
 public class Interactions_ST8_06 : MonoBehaviour

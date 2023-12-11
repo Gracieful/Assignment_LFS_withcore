@@ -2144,7 +2144,7 @@ Transform:
   m_Children:
   - {fileID: 1544470130}
   m_Father: {fileID: 0}
-  m_RootOrder: 8
+  m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &374673386
 MonoBehaviour:
@@ -2252,6 +2252,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: chr151 with animations
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: f01bbe1828644ea43b61b3578de08957,
+        type: 3}
+      propertyPath: m_TagString
+      value: Digimon
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -3286,7 +3291,12 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 97c5828e440c16d4ba4504162dc68d71,
         type: 3}
       propertyPath: m_Name
-      value: chr564
+      value: Elecmon
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 97c5828e440c16d4ba4504162dc68d71,
+        type: 3}
+      propertyPath: m_TagString
+      value: Digimon
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -4408,7 +4418,7 @@ Transform:
   m_Children:
   - {fileID: 402281383}
   m_Father: {fileID: 0}
-  m_RootOrder: 12
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &784328716
 MonoBehaviour:
@@ -4889,7 +4899,7 @@ Transform:
   m_Children:
   - {fileID: 1512314891}
   m_Father: {fileID: 0}
-  m_RootOrder: 9
+  m_RootOrder: 12
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &894973628
 MonoBehaviour:
@@ -5243,7 +5253,7 @@ Transform:
   m_Children:
   - {fileID: 387939757}
   m_Father: {fileID: 0}
-  m_RootOrder: 6
+  m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1070006345
 MonoBehaviour:
@@ -5517,7 +5527,7 @@ Transform:
   m_Children:
   - {fileID: 1903469581}
   m_Father: {fileID: 0}
-  m_RootOrder: 11
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1073067410
 MonoBehaviour:
@@ -8609,7 +8619,7 @@ Transform:
   m_Children:
   - {fileID: 59429998}
   m_Father: {fileID: 0}
-  m_RootOrder: 7
+  m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1803024854
 MonoBehaviour:
@@ -8664,20 +8674,20 @@ MonoBehaviour:
   EffectText: {fileID: 1632770564}
   EvolutionText: {fileID: 1318871988}
   CostText: {fileID: 2122085803}
-  Elecmon_BT1_028: {fileID: 0}
-  Gorillamon_BT1_037: {fileID: 0}
-  Monzaemon_BT1_038: {fileID: 0}
-  Gomamon_ST2_02: {fileID: 0}
-  Gabumon_ST2_03: {fileID: 0}
-  Gabumon_ST8_02: {fileID: 0}
-  Dracomon_ST8_03: {fileID: 0}
-  Veemon_ST8_05: {fileID: 0}
-  Veedramon_ST8_05: {fileID: 0}
-  Coredramon_ST8_06: {fileID: 0}
-  Wingdramon_ST8_07: {fileID: 0}
-  AeroVeedramon_ST8_08: {fileID: 0}
-  Slayerdramon_ST8_09: {fileID: 0}
-  UlforceVeedramon_ST8_10: {fileID: 0}
+  Elecmon_BT1_028: {fileID: 591056287}
+  Gorillamon_BT1_037: {fileID: 1903469583}
+  Monzaemon_BT1_038: {fileID: 402281385}
+  Gomamon_ST2_02: {fileID: 59430000}
+  Gabumon_ST2_03: {fileID: 387939759}
+  Gabumon_ST8_02: {fileID: 590122494}
+  Dracomon_ST8_03: {fileID: 1468846132}
+  Veemon_ST8_05: {fileID: 1739237651}
+  Veedramon_ST8_05: {fileID: 502743865}
+  Coredramon_ST8_06: {fileID: 1512314893}
+  Wingdramon_ST8_07: {fileID: 865513071}
+  AeroVeedramon_ST8_08: {fileID: 1544470132}
+  Slayerdramon_ST8_09: {fileID: 625979967}
+  UlforceVeedramon_ST8_10: {fileID: 128456849}
 --- !u!4 &1804529875
 Transform:
   m_ObjectHideFlags: 0
@@ -8797,7 +8807,7 @@ Transform:
   m_Children:
   - {fileID: 591056285}
   m_Father: {fileID: 0}
-  m_RootOrder: 10
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1828632882
 MonoBehaviour:
@@ -9409,7 +9419,7 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 254cd30cf8116804d861c6daf0e96b09,
         type: 3}
       propertyPath: m_Name
-      value: m203_d
+      value: Gorillamon_BT1_037
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -9441,7 +9451,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1903469582}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8f106deb31602394a8a987137dce22ce, type: 3}
+  m_Script: {fileID: 11500000, guid: 220ae25ca74a12845847d86815f729b9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   DPText: {fileID: 717963226}
