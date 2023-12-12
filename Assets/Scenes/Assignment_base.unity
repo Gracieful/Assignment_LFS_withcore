@@ -275,7 +275,7 @@ RectTransform:
   m_GameObject: {fileID: 89056357}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 4}
-  m_LocalScale: {x: 7.3508935, y: 0.31242, z: 0.9500002}
+  m_LocalScale: {x: 7.3508935, y: 0.281178, z: 0.9500002}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1494286339}
@@ -283,7 +283,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -70.0002, y: 4.8593082}
+  m_AnchoredPosition: {x: -70.0002, y: 16}
   m_SizeDelta: {x: 100, y: 25}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &89056359
@@ -794,7 +794,79 @@ MonoBehaviour:
     m_RotationOrder: 4
   OnTargetFound:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 590122494}
+        m_TargetAssemblyTypeName: Digimon.Interactions_ST8_02, Assembly-CSharp
+        m_MethodName: UpdateNameDisplay
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 590122494}
+        m_TargetAssemblyTypeName: Digimon.Interactions_ST8_02, Assembly-CSharp
+        m_MethodName: UpdateLevelDisplay
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 590122494}
+        m_TargetAssemblyTypeName: Digimon.Interactions_ST8_02, Assembly-CSharp
+        m_MethodName: UpdateEvolutionDisplay
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 590122494}
+        m_TargetAssemblyTypeName: Digimon.Interactions_ST8_02, Assembly-CSharp
+        m_MethodName: UpdateEffectDisplay
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 590122494}
+        m_TargetAssemblyTypeName: Digimon.Interactions_ST8_02, Assembly-CSharp
+        m_MethodName: UpdateDPDisplay
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 717963226}
+          m_ObjectArgumentAssemblyTypeName: TMPro.TMP_Text, Unity.TextMeshPro
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 590122494}
+        m_TargetAssemblyTypeName: Digimon.Interactions_ST8_02, Assembly-CSharp
+        m_MethodName: UpdateCostDisplay
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   OnTargetLost:
     m_PersistentCalls:
       m_Calls: []
@@ -1020,13 +1092,10 @@ MonoBehaviour:
     m_RotationOrder: 4
   OnTargetFound:
     m_PersistentCalls:
-      m_Calls: []
-  OnTargetLost:
-    m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: VideoController, SamplesScripts
-        m_MethodName: Pause
+      - m_Target: {fileID: 1468846132}
+        m_TargetAssemblyTypeName: Digimon.Interactions_ST8_03, Assembly-CSharp
+        m_MethodName: UpdateNameDisplay
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -1036,6 +1105,69 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 1468846132}
+        m_TargetAssemblyTypeName: Digimon.Interactions_ST8_03, Assembly-CSharp
+        m_MethodName: UpdateLevelDisplay
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1468846132}
+        m_TargetAssemblyTypeName: Digimon.Interactions_ST8_03, Assembly-CSharp
+        m_MethodName: UpdateEvolutionDisplay
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1468846132}
+        m_TargetAssemblyTypeName: Digimon.Interactions_ST8_03, Assembly-CSharp
+        m_MethodName: UpdateEffectDisplay
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1468846132}
+        m_TargetAssemblyTypeName: Digimon.Interactions_ST8_03, Assembly-CSharp
+        m_MethodName: UpdateDPDisplay
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 717963226}
+          m_ObjectArgumentAssemblyTypeName: TMPro.TMP_Text, Unity.TextMeshPro
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1468846132}
+        m_TargetAssemblyTypeName: Digimon.Interactions_ST8_03, Assembly-CSharp
+        m_MethodName: UpdateCostDisplay
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  OnTargetLost:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!114 &123362027
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2099,7 +2231,79 @@ MonoBehaviour:
     m_RotationOrder: 4
   OnTargetFound:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1544470132}
+        m_TargetAssemblyTypeName: Digimon.Interactions_ST8_08, Assembly-CSharp
+        m_MethodName: UpdateNameDisplay
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1544470132}
+        m_TargetAssemblyTypeName: Digimon.Interactions_ST8_08, Assembly-CSharp
+        m_MethodName: UpdateLevelDisplay
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1544470132}
+        m_TargetAssemblyTypeName: Digimon.Interactions_ST8_08, Assembly-CSharp
+        m_MethodName: UpdateEvolutionDisplay
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1544470132}
+        m_TargetAssemblyTypeName: Digimon.Interactions_ST8_08, Assembly-CSharp
+        m_MethodName: UpdateEffectDisplay
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1544470132}
+        m_TargetAssemblyTypeName: Digimon.Interactions_ST8_08, Assembly-CSharp
+        m_MethodName: UpdateDPDisplay
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 717963226}
+          m_ObjectArgumentAssemblyTypeName: TMPro.TMP_Text, Unity.TextMeshPro
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1544470132}
+        m_TargetAssemblyTypeName: Digimon.Interactions_ST8_08, Assembly-CSharp
+        m_MethodName: UpdateCostDisplay
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   OnTargetLost:
     m_PersistentCalls:
       m_Calls: []
@@ -3740,7 +3944,79 @@ MonoBehaviour:
     m_RotationOrder: 4
   OnTargetFound:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 625979967}
+        m_TargetAssemblyTypeName: Digimon.Interactions_ST8_09, Assembly-CSharp
+        m_MethodName: UpdateNameDisplay
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 625979967}
+        m_TargetAssemblyTypeName: Digimon.Interactions_ST8_09, Assembly-CSharp
+        m_MethodName: UpdateLevelDisplay
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 625979967}
+        m_TargetAssemblyTypeName: Digimon.Interactions_ST8_09, Assembly-CSharp
+        m_MethodName: UpdateEvolutionDisplay
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 625979967}
+        m_TargetAssemblyTypeName: Digimon.Interactions_ST8_09, Assembly-CSharp
+        m_MethodName: UpdateEffectDisplay
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 625979967}
+        m_TargetAssemblyTypeName: Digimon.Interactions_ST8_09, Assembly-CSharp
+        m_MethodName: UpdateDPDisplay
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 717963226}
+          m_ObjectArgumentAssemblyTypeName: TMPro.TMP_Text, Unity.TextMeshPro
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 625979967}
+        m_TargetAssemblyTypeName: Digimon.Interactions_ST8_09, Assembly-CSharp
+        m_MethodName: UpdateCostDisplay
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   OnTargetLost:
     m_PersistentCalls:
       m_Calls: []
@@ -3968,7 +4244,7 @@ RectTransform:
   m_GameObject: {fileID: 717963224}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 4}
-  m_LocalScale: {x: 7.3508935, y: 0.31242, z: 0.9500002}
+  m_LocalScale: {x: 7.3508935, y: 0.281178, z: 0.9500002}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1494286339}
@@ -3976,7 +4252,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -70.0002, y: 12.442999}
+  m_AnchoredPosition: {x: -70.0002, y: 20.6}
   m_SizeDelta: {x: 100, y: 25}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &717963226
@@ -4373,7 +4649,79 @@ MonoBehaviour:
     m_RotationOrder: 4
   OnTargetFound:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 402281385}
+        m_TargetAssemblyTypeName: Digimon.Interactions_BT1_038, Assembly-CSharp
+        m_MethodName: UpdateNameDisplay
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 402281385}
+        m_TargetAssemblyTypeName: Digimon.Interactions_BT1_038, Assembly-CSharp
+        m_MethodName: UpdateLevelDisplay
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 402281385}
+        m_TargetAssemblyTypeName: Digimon.Interactions_BT1_038, Assembly-CSharp
+        m_MethodName: UpdateEvolutionDisplay
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 402281385}
+        m_TargetAssemblyTypeName: Digimon.Interactions_BT1_038, Assembly-CSharp
+        m_MethodName: UpdateEffectDisplay
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 402281385}
+        m_TargetAssemblyTypeName: Digimon.Interactions_BT1_038, Assembly-CSharp
+        m_MethodName: UpdateDPDisplay
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 717963226}
+          m_ObjectArgumentAssemblyTypeName: TMPro.TMP_Text, Unity.TextMeshPro
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 402281385}
+        m_TargetAssemblyTypeName: Digimon.Interactions_BT1_038, Assembly-CSharp
+        m_MethodName: UpdateCostDisplay
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   OnTargetLost:
     m_PersistentCalls:
       m_Calls: []
@@ -4854,7 +5202,79 @@ MonoBehaviour:
     m_RotationOrder: 4
   OnTargetFound:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1512314893}
+        m_TargetAssemblyTypeName: Digimon.Interactions_ST8_06, Assembly-CSharp
+        m_MethodName: UpdateNameDisplay
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1512314893}
+        m_TargetAssemblyTypeName: Digimon.Interactions_ST8_06, Assembly-CSharp
+        m_MethodName: UpdateLevelDisplay
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1512314893}
+        m_TargetAssemblyTypeName: Digimon.Interactions_ST8_06, Assembly-CSharp
+        m_MethodName: UpdateEvolutionDisplay
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1512314893}
+        m_TargetAssemblyTypeName: Digimon.Interactions_ST8_06, Assembly-CSharp
+        m_MethodName: UpdateEffectDisplay
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1512314893}
+        m_TargetAssemblyTypeName: Digimon.Interactions_ST8_06, Assembly-CSharp
+        m_MethodName: UpdateDPDisplay
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 717963226}
+          m_ObjectArgumentAssemblyTypeName: TMPro.TMP_Text, Unity.TextMeshPro
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1512314893}
+        m_TargetAssemblyTypeName: Digimon.Interactions_ST8_06, Assembly-CSharp
+        m_MethodName: UpdateCostDisplay
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   OnTargetLost:
     m_PersistentCalls:
       m_Calls: []
@@ -5208,7 +5628,79 @@ MonoBehaviour:
     m_RotationOrder: 4
   OnTargetFound:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 387939759}
+        m_TargetAssemblyTypeName: Digimon.Interactions_ST2_03, Assembly-CSharp
+        m_MethodName: UpdateNameDisplay
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 387939759}
+        m_TargetAssemblyTypeName: Digimon.Interactions_ST2_03, Assembly-CSharp
+        m_MethodName: UpdateLevelDisplay
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 387939759}
+        m_TargetAssemblyTypeName: Digimon.Interactions_ST2_03, Assembly-CSharp
+        m_MethodName: UpdateEvolutionDisplay
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 387939759}
+        m_TargetAssemblyTypeName: Digimon.Interactions_ST2_03, Assembly-CSharp
+        m_MethodName: UpdateEffectDisplay
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 387939759}
+        m_TargetAssemblyTypeName: Digimon.Interactions_ST2_03, Assembly-CSharp
+        m_MethodName: UpdateDPDisplay
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 717963226}
+          m_ObjectArgumentAssemblyTypeName: TMPro.TMP_Text, Unity.TextMeshPro
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 387939759}
+        m_TargetAssemblyTypeName: Digimon.Interactions_ST2_03, Assembly-CSharp
+        m_MethodName: UpdateCostDisplay
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   OnTargetLost:
     m_PersistentCalls:
       m_Calls: []
@@ -5470,13 +5962,10 @@ MonoBehaviour:
     m_RotationOrder: 4
   OnTargetFound:
     m_PersistentCalls:
-      m_Calls: []
-  OnTargetLost:
-    m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: VideoController, SamplesScripts
-        m_MethodName: Pause
+      - m_Target: {fileID: 1903469583}
+        m_TargetAssemblyTypeName: Digimon.Interactions_BT1_037, Assembly-CSharp
+        m_MethodName: UpdateNameDisplay
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -5486,6 +5975,69 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 1903469583}
+        m_TargetAssemblyTypeName: Digimon.Interactions_BT1_037, Assembly-CSharp
+        m_MethodName: UpdateLevelDisplay
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1903469583}
+        m_TargetAssemblyTypeName: Digimon.Interactions_BT1_037, Assembly-CSharp
+        m_MethodName: UpdateEvolutionDisplay
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1903469583}
+        m_TargetAssemblyTypeName: Digimon.Interactions_BT1_037, Assembly-CSharp
+        m_MethodName: UpdateEffectDisplay
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1903469583}
+        m_TargetAssemblyTypeName: Digimon.Interactions_BT1_037, Assembly-CSharp
+        m_MethodName: UpdateCostDisplay
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1903469583}
+        m_TargetAssemblyTypeName: Digimon.Interactions_BT1_037, Assembly-CSharp
+        m_MethodName: UpdateDPDisplay
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 717963226}
+          m_ObjectArgumentAssemblyTypeName: TMPro.TMP_Text, Unity.TextMeshPro
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  OnTargetLost:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!114 &1073067408
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6183,7 +6735,7 @@ RectTransform:
   m_GameObject: {fileID: 1318871986}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 4}
-  m_LocalScale: {x: 7.3508935, y: 0.31242, z: 0.9500002}
+  m_LocalScale: {x: 7.3508935, y: 0.281178, z: 0.9500002}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1494286339}
@@ -6191,7 +6743,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -70.0002, y: -10.930302}
+  m_AnchoredPosition: {x: -70.0002, y: 7.2}
   m_SizeDelta: {x: 100, y: 25}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1318871988
@@ -7106,7 +7658,7 @@ RectTransform:
   m_GameObject: {fileID: 1494286338}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: -4}
-  m_LocalScale: {x: 0.255874, y: 3.7148933, z: 1}
+  m_LocalScale: {x: 0.255874, y: 4.3746586, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1950182597}
@@ -7120,7 +7672,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 326.6, y: -68.57103}
+  m_AnchoredPosition: {x: 326.6, y: -71.7}
   m_SizeDelta: {x: -0.000061035156, y: 60}
   m_Pivot: {x: 0.5, y: 1}
 --- !u!114 &1494286340
@@ -7770,7 +8322,7 @@ RectTransform:
   m_GameObject: {fileID: 1632770562}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 4}
-  m_LocalScale: {x: 7.3508935, y: 0.31242, z: 0.9500002}
+  m_LocalScale: {x: 7.3508935, y: 0.281178, z: 0.9500002}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1494286339}
@@ -7778,7 +8330,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -70.0002, y: -18.514}
+  m_AnchoredPosition: {x: -70.0002, y: 2.8}
   m_SizeDelta: {x: 100, y: 25}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1632770564
@@ -8574,7 +9126,79 @@ MonoBehaviour:
     m_RotationOrder: 4
   OnTargetFound:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 59430000}
+        m_TargetAssemblyTypeName: Digimon.Interactions_ST2_02, Assembly-CSharp
+        m_MethodName: UpdateNameDisplay
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 59430000}
+        m_TargetAssemblyTypeName: Digimon.Interactions_ST2_02, Assembly-CSharp
+        m_MethodName: UpdateLevelDisplay
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 59430000}
+        m_TargetAssemblyTypeName: Digimon.Interactions_ST2_02, Assembly-CSharp
+        m_MethodName: UpdateEvolutionDisplay
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 59430000}
+        m_TargetAssemblyTypeName: Digimon.Interactions_ST2_02, Assembly-CSharp
+        m_MethodName: UpdateEffectDisplay
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 59430000}
+        m_TargetAssemblyTypeName: Digimon.Interactions_ST2_02, Assembly-CSharp
+        m_MethodName: UpdateDPDisplay
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 717963226}
+          m_ObjectArgumentAssemblyTypeName: TMPro.TMP_Text, Unity.TextMeshPro
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 59430000}
+        m_TargetAssemblyTypeName: Digimon.Interactions_ST2_02, Assembly-CSharp
+        m_MethodName: UpdateCostDisplay
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   OnTargetLost:
     m_PersistentCalls:
       m_Calls: []
@@ -8762,7 +9386,79 @@ MonoBehaviour:
     m_RotationOrder: 4
   OnTargetFound:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 591056287}
+        m_TargetAssemblyTypeName: Digimon.Interactions_BT1_028, Assembly-CSharp
+        m_MethodName: UpdateNameDisplay
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 591056287}
+        m_TargetAssemblyTypeName: Digimon.Interactions_BT1_028, Assembly-CSharp
+        m_MethodName: UpdateLevelDisplay
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 591056287}
+        m_TargetAssemblyTypeName: Digimon.Interactions_BT1_028, Assembly-CSharp
+        m_MethodName: UpdateEvolutionDisplay
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 591056287}
+        m_TargetAssemblyTypeName: Digimon.Interactions_BT1_028, Assembly-CSharp
+        m_MethodName: UpdateEffectDisplay
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 591056287}
+        m_TargetAssemblyTypeName: Digimon.Interactions_BT1_028, Assembly-CSharp
+        m_MethodName: UpdateDPDisplay
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 591056287}
+        m_TargetAssemblyTypeName: Digimon.Interactions_BT1_028, Assembly-CSharp
+        m_MethodName: UpdateCostDisplay
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   OnTargetLost:
     m_PersistentCalls:
       m_Calls: []
@@ -8887,7 +9583,79 @@ MonoBehaviour:
     m_RotationOrder: 4
   OnTargetFound:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 865513071}
+        m_TargetAssemblyTypeName: Digimon.Interactions_ST8_07, Assembly-CSharp
+        m_MethodName: UpdateNameDisplay
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 865513071}
+        m_TargetAssemblyTypeName: Digimon.Interactions_ST8_07, Assembly-CSharp
+        m_MethodName: UpdateLevelDisplay
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 865513071}
+        m_TargetAssemblyTypeName: Digimon.Interactions_ST8_07, Assembly-CSharp
+        m_MethodName: UpdateEvolutionDisplay
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 865513071}
+        m_TargetAssemblyTypeName: Digimon.Interactions_ST8_07, Assembly-CSharp
+        m_MethodName: UpdateEffectDisplay
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 865513071}
+        m_TargetAssemblyTypeName: Digimon.Interactions_ST8_07, Assembly-CSharp
+        m_MethodName: UpdateDPDisplay
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 717963226}
+          m_ObjectArgumentAssemblyTypeName: TMPro.TMP_Text, Unity.TextMeshPro
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 865513071}
+        m_TargetAssemblyTypeName: Digimon.Interactions_ST8_07, Assembly-CSharp
+        m_MethodName: UpdateCostDisplay
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   OnTargetLost:
     m_PersistentCalls:
       m_Calls:
@@ -9142,7 +9910,79 @@ MonoBehaviour:
     m_RotationOrder: 4
   OnTargetFound:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1739237651}
+        m_TargetAssemblyTypeName: Digimon.Interactions_ST8_04, Assembly-CSharp
+        m_MethodName: UpdateNameDisplay
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1739237651}
+        m_TargetAssemblyTypeName: Digimon.Interactions_ST8_04, Assembly-CSharp
+        m_MethodName: UpdateLevelDisplay
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1739237651}
+        m_TargetAssemblyTypeName: Digimon.Interactions_ST8_04, Assembly-CSharp
+        m_MethodName: UpdateEvolutionDisplay
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1739237651}
+        m_TargetAssemblyTypeName: Digimon.Interactions_ST8_04, Assembly-CSharp
+        m_MethodName: UpdateEffectDisplay
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1739237651}
+        m_TargetAssemblyTypeName: Digimon.Interactions_ST8_04, Assembly-CSharp
+        m_MethodName: UpdateDPDisplay
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 717963226}
+          m_ObjectArgumentAssemblyTypeName: TMPro.TMP_Text, Unity.TextMeshPro
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1739237651}
+        m_TargetAssemblyTypeName: Digimon.Interactions_ST8_04, Assembly-CSharp
+        m_MethodName: UpdateCostDisplay
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   OnTargetLost:
     m_PersistentCalls:
       m_Calls: []
@@ -9267,7 +10107,79 @@ MonoBehaviour:
     m_RotationOrder: 4
   OnTargetFound:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 502743865}
+        m_TargetAssemblyTypeName: Digimon.Interactions_ST8_05, Assembly-CSharp
+        m_MethodName: UpdateNameDisplay
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 502743865}
+        m_TargetAssemblyTypeName: Digimon.Interactions_ST8_05, Assembly-CSharp
+        m_MethodName: UpdateLevelDisplay
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 502743865}
+        m_TargetAssemblyTypeName: Digimon.Interactions_ST8_05, Assembly-CSharp
+        m_MethodName: UpdateEvolutionDisplay
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 502743865}
+        m_TargetAssemblyTypeName: Digimon.Interactions_ST8_05, Assembly-CSharp
+        m_MethodName: UpdateEffectDisplay
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 502743865}
+        m_TargetAssemblyTypeName: Digimon.Interactions_ST8_05, Assembly-CSharp
+        m_MethodName: UpdateDPDisplay
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 717963226}
+          m_ObjectArgumentAssemblyTypeName: TMPro.TMP_Text, Unity.TextMeshPro
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 502743865}
+        m_TargetAssemblyTypeName: Digimon.Interactions_ST8_05, Assembly-CSharp
+        m_MethodName: UpdateCostDisplay
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   OnTargetLost:
     m_PersistentCalls:
       m_Calls: []
@@ -9656,7 +10568,79 @@ MonoBehaviour:
     m_RotationOrder: 4
   OnTargetFound:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 128456849}
+        m_TargetAssemblyTypeName: Digimon.Interactions_ST8_10, Assembly-CSharp
+        m_MethodName: UpdateNameDisplay
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 128456849}
+        m_TargetAssemblyTypeName: Digimon.Interactions_ST8_10, Assembly-CSharp
+        m_MethodName: UpdateLevelDisplay
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 128456849}
+        m_TargetAssemblyTypeName: Digimon.Interactions_ST8_10, Assembly-CSharp
+        m_MethodName: UpdateEvolutionDisplay
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 128456849}
+        m_TargetAssemblyTypeName: Digimon.Interactions_ST8_10, Assembly-CSharp
+        m_MethodName: UpdateEffectDisplay
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 128456849}
+        m_TargetAssemblyTypeName: Digimon.Interactions_ST8_10, Assembly-CSharp
+        m_MethodName: UpdateDPDisplay
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 717963226}
+          m_ObjectArgumentAssemblyTypeName: TMPro.TMP_Text, Unity.TextMeshPro
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 128456849}
+        m_TargetAssemblyTypeName: Digimon.Interactions_ST8_10, Assembly-CSharp
+        m_MethodName: UpdateCostDisplay
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   OnTargetLost:
     m_PersistentCalls:
       m_Calls: []
@@ -9749,7 +10733,7 @@ RectTransform:
   m_GameObject: {fileID: 1950182596}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 4}
-  m_LocalScale: {x: 7.3508935, y: 0.31242, z: 0.9500002}
+  m_LocalScale: {x: 7.3508935, y: 0.281178, z: 0.9500002}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1494286339}
@@ -9757,7 +10741,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -70, y: 20.4}
+  m_AnchoredPosition: {x: -70, y: 25}
   m_SizeDelta: {x: 100, y: 25}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1950182598
@@ -10080,7 +11064,7 @@ RectTransform:
   m_GameObject: {fileID: 2122085801}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 4}
-  m_LocalScale: {x: 7.3508935, y: 0.31242, z: 0.9500002}
+  m_LocalScale: {x: 7.3508935, y: 0.281178, z: 0.9500002}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1494286339}
@@ -10088,7 +11072,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -70.0002, y: -2.973301}
+  m_AnchoredPosition: {x: -70.0002, y: 11.7}
   m_SizeDelta: {x: 100, y: 25}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2122085803

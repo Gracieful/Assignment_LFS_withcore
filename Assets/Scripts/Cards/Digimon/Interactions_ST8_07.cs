@@ -39,28 +39,28 @@ public class Interactions_ST8_07 : MonoBehaviour
 
     public void UpdateDPDisplay(TMP_Text DPText)
     {
-        DPText.text = "DP:" + 3000;
+        DPText.text = "DP:" + 7000;
     }
 
      public void UpdateNameDisplay()
     {
-        NameText.text = "Name:" + "Elecmon";
+        NameText.text = "Name:" + "Wingdramon";
     }
       public void UpdateLevelDisplay()
     {
-        LevelText.text = "Level:" + "3";
+        LevelText.text = "Level:" + "5";
     }
         public void UpdateEffectDisplay()
     {
-        EffectText.text = "Effect:" + "--";
+        EffectText.text = "Effect:" + "Blocker (When an opponent's Digimon attacks, you may suspend this Digimon to force the opponent to attack it instead.)";
     }
       public void UpdateEvolutionDisplay()
     {
-        EvolutionText.text = "Digivolve cost:" + "Lvl2:0";
+        EvolutionText.text = "Digivolve cost:" + "Lvl4: 3";
     }
         public void UpdateCostDisplay()
     {
-        CostText.text = "Play Cost:" + "2 Memory";
+        CostText.text = "Play Cost:" + "7 Memory";
     }
         // Start is called before the first frame update
         //  void Start()

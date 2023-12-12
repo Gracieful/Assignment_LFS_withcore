@@ -43,7 +43,7 @@ public class Interactions_ST8_03 : MonoBehaviour
 
      public void UpdateNameDisplay()
     {
-        NameText.text = "Name:" + "Elecmon";
+        NameText.text = "Name:" + "Dracomon";
     }
       public void UpdateLevelDisplay()
     {
@@ -51,7 +51,7 @@ public class Interactions_ST8_03 : MonoBehaviour
     }
         public void UpdateEffectDisplay()
     {
-        EffectText.text = "Effect:" + "--";
+        EffectText.text = "Effect:" + "On Play: Reveal the top 3 cards of your deck. Add 1 Digimon card with [Dramon] in it's name among them to your hand. Place the remaining cards at the bottom of your deck in any order. ";
     }
       public void UpdateEvolutionDisplay()
     {
@@ -59,7 +59,7 @@ public class Interactions_ST8_03 : MonoBehaviour
     }
         public void UpdateCostDisplay()
     {
-        CostText.text = "Play Cost:" + "2 Memory";
+        CostText.text = "Play Cost:" + "3 Memory";
     }
     // Start is called before the first frame update
         // Start is called before the first frame update

@@ -41,28 +41,28 @@ public class Interactions_ST8_05 : MonoBehaviour
 
     public void UpdateDPDisplay(TMP_Text DPText)
     {
-        DPText.text = "DP:" + 3000;
+        DPText.text = "DP:" + 5000;
     }
 
      public void UpdateNameDisplay()
     {
-        NameText.text = "Name:" + "Elecmon";
+        NameText.text = "Name:" + "Veedramon";
     }
       public void UpdateLevelDisplay()
     {
-        LevelText.text = "Level:" + "3";
+        LevelText.text = "Level:" + "4";
     }
         public void UpdateEffectDisplay()
     {
-        EffectText.text = "Effect:" + "--";
+        EffectText.text = "Effect:" + "When Attacking: If you have 8 or more cards in your hand, return 1 of your opponent's level 3 Digimon to its owners hand. Trash all the digivolutions cards of that Digimon.";
     }
       public void UpdateEvolutionDisplay()
     {
-        EvolutionText.text = "Digivolve cost:" + "Lvl2:0";
+        EvolutionText.text = "Digivolve cost:" + "Lvl3:02";
     }
         public void UpdateCostDisplay()
     {
-        CostText.text = "Play Cost:" + "2 Memory";
+        CostText.text = "Play Cost:" + "4 Memory";
     }
         // Start is called before the first frame update
         //  void Start()

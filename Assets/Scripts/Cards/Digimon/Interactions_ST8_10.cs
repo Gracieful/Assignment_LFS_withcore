@@ -2,6 +2,9 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
+using Unity.Mathematics;
+
+//not working yet
 
 
 //Refrences
@@ -41,28 +44,28 @@ public class Interactions_ST8_10 : MonoBehaviour
 
     public void UpdateDPDisplay(TMP_Text DPText)
     {
-        DPText.text = "DP:" + 3000;
+        DPText.text = "DP:" + 12000;
     }
 
      public void UpdateNameDisplay()
     {
-        NameText.text = "Name:" + "Elecmon";
+        NameText.text = "Name:" + "UlforceVeedramon";
     }
       public void UpdateLevelDisplay()
     {
-        LevelText.text = "Level:" + "3";
+        LevelText.text = "Level:" + "6";
     }
         public void UpdateEffectDisplay()
     {
-        EffectText.text = "Effect:" + "--";
+        EffectText.text = "Effect:" + "When Digivolving Return 1 of your opponents level 4 or lower Digimon to it's owners hand. transh all of the digivolution cards of that Digimon." + "When Attacking: Once Per Turn: If you have 8 or more cards in your hand, unsuspend this Digimon.";
     }
       public void UpdateEvolutionDisplay()
     {
-        EvolutionText.text = "Digivolve cost:" + "Lvl2:0";
+        EvolutionText.text = "Digivolve cost:" + "Lvl5:4";
     }
         public void UpdateCostDisplay()
     {
-        CostText.text = "Play Cost:" + "2 Memory";
+        CostText.text = "Play Cost:" + "12 Memory";
     }
         // Start is called before the first frame update
         //  void Start()

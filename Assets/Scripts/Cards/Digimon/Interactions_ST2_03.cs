@@ -44,7 +44,7 @@ public class Interactions_ST2_03 : MonoBehaviour
 
      public void UpdateNameDisplay()
     {
-        NameText.text = "Name:" + "Elecmon";
+        NameText.text = "Name:" + "Gabumon";
     }
       public void UpdateLevelDisplay()
     {
@@ -52,7 +52,7 @@ public class Interactions_ST2_03 : MonoBehaviour
     }
         public void UpdateEffectDisplay()
     {
-        EffectText.text = "Effect:" + "--";
+        EffectText.text = "Effect:" + "When Attacking: Trash the digivolution card at the bottom of your opponents Digimon with a level 5 or less";
     }
       public void UpdateEvolutionDisplay()
     {
@@ -60,7 +60,7 @@ public class Interactions_ST2_03 : MonoBehaviour
     }
         public void UpdateCostDisplay()
     {
-        CostText.text = "Play Cost:" + "2 Memory";
+        CostText.text = "Play Cost:" + "3 Memory";
     }
            // Start is called before the first frame update
         //  void Start()

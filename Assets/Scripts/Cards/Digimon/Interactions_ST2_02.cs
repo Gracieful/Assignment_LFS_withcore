@@ -46,7 +46,7 @@ public class Interactions_ST2_02 : MonoBehaviour
 
      public void UpdateNameDisplay()
     {
-        NameText.text = "Name:" + "Elecmon";
+        NameText.text = "Name:" + "Gomamon";
     }
       public void UpdateLevelDisplay()
     {

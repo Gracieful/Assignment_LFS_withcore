@@ -41,28 +41,28 @@ public class Interactions_ST8_06 : MonoBehaviour
 
     public void UpdateDPDisplay(TMP_Text DPText)
     {
-        DPText.text = "DP:" + 3000;
+        DPText.text = "DP:" + 5000;
     }
 
      public void UpdateNameDisplay()
     {
-        NameText.text = "Name:" + "Elecmon";
+        NameText.text = "Name:" + "Coredramon";
     }
       public void UpdateLevelDisplay()
     {
-        LevelText.text = "Level:" + "3";
+        LevelText.text = "Level:" + "4";
     }
         public void UpdateEffectDisplay()
     {
-        EffectText.text = "Effect:" + "--";
+        EffectText.text = "Effect:" + "Security: At the end of the battle, play this card without paying it's memory cost. " + "On Play: Trigger Draw 2. ( Draw 2 cards from your deck.)";
     }
       public void UpdateEvolutionDisplay()
     {
-        EvolutionText.text = "Digivolve cost:" + "Lvl2:0";
+        EvolutionText.text = "Digivolve cost:" + "Lvl3:2";
     }
         public void UpdateCostDisplay()
     {
-        CostText.text = "Play Cost:" + "2 Memory";
+        CostText.text = "Play Cost:" + "6 Memory";
     }
         // Start is called before the first frame update
         //  void Start()

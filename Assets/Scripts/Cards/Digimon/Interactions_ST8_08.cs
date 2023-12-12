@@ -45,23 +45,23 @@ public class Interactions_ST8_08 : MonoBehaviour
 
      public void UpdateNameDisplay()
     {
-        NameText.text = "Name:" + "Elecmon";
+        NameText.text = "Name:" + "AeroVeedramon";
     }
       public void UpdateLevelDisplay()
     {
-        LevelText.text = "Level:" + "3";
+        LevelText.text = "Level:" + "7";
     }
         public void UpdateEffectDisplay()
     {
-        EffectText.text = "Effect:" + "--";
+        EffectText.text = "Effect:" + "Jamming:(This Digimon can't be deleted in battles against Secuirty Digimon.)" + "Your Turn: While you have 8 or more cards in your hand, this Digimon gains Security Attack +1. (This Digimon checks 1 additional security card.)";
     }
       public void UpdateEvolutionDisplay()
     {
-        EvolutionText.text = "Digivolve cost:" + "Lvl2:0";
+        EvolutionText.text = "Digivolve cost:" + "Lvl4:3";
     }
         public void UpdateCostDisplay()
     {
-        CostText.text = "Play Cost:" + "2 Memory";
+        CostText.text = "Play Cost:" + "7 Memory";
     }
         // Start is called before the first frame update
         //  void Start()

@@ -36,9 +36,12 @@ public class DigimonManager : MonoBehaviour
     [SerializeField] private Interactions_ST8_08  AeroVeedramon_ST8_08;
     [SerializeField] private Interactions_ST8_09 Slayerdramon_ST8_09;
     [SerializeField] private Interactions_ST8_10 UlforceVeedramon_ST8_10;
+
+    // Below is part of the variable for calling the infor from each card. I got the "name" version from Co-pilot and built from there. 
+//   [SerializeField] private TMP_Asset DisplayName; 
 //Gorillamon doesn't work
 //Monzaemon doesn't work either. Keep getting the same error where instance is not set to an object 
-//Maybe it's an asset issue? It wasn't
+//Maybe it's an asset issue? It wasn't, I didn;'t have stuff connected in the UI
     void Awake()
     {
         if(Instance == null)
@@ -64,7 +67,7 @@ public class DigimonManager : MonoBehaviour
     {
         if(Input.GetKeyDown(KeyCode.E))
         {
-            DisplayName();
+            //DisplayName();
             DisplayDP();
             DisplayCost();
             DisplayEvolution();
@@ -77,7 +80,12 @@ public class DigimonManager : MonoBehaviour
             
             //This will only get the text from Elecmon to display, but when card appears on screen. Works as a tester
             //I'll need to create a variable that captures the card being picked up that will fill in where the card name is 
-        }  
+        } 
+
+//I asked co-pilot the following "Can you create a variable where if one of the digimon cards are tracked by Vuforia the relevant nameText will appear in DisplayName"
+//Below is what co-pilot churned out. I'm going to play with it and see if I can get it to work.
+
+        // Reference to the DisplayName text object
 
 //Got the below from co-pilot after asking it to check the following error "NullReferenceException: Object reference not set to an instance of an object Digimon.DigimonManager.Update () (at Assets/Scripts/GameManagers/DigimonManager.cs:67)"
  //       if (NameText != null)
@@ -105,11 +113,46 @@ public class DigimonManager : MonoBehaviour
 //The reason it broke when i updated the asset is because I had the assets connected to the manager in Unitys UI. 
 //The reason nothing else was working, was because I had nothing else connected. 
 
+
+//now that I've got the assets connected, I need to create the variable that'll store the digimon card name 
+//Below was used to test if the cards could be called. Now that they're working I'm going to comment them out while I work onn the rtacking variable 
+
+//Currently not working 
+
     //Everything else 
-        public void DisplayName()
-    {
-        Gorillamon_BT1_037.UpdateNameDisplay();
-    }
+//        public void DisplayName()
+//    {
+//        Gorillamon_BT1_037.UpdateNameDisplay();
+//   }
+
+// This is exactly what co-pilot gave me 
+//[SerializeField] private Text DisplayName; // Reference to the DisplayName text object
+
+//void UpdateDisplayName(Interactions_BT1_028 trackedCard)
+//{
+//    if (trackedCard == Elecmon_BT1_028)
+//   {
+//        DisplayName.text = "Elecmon_BT1_028";
+//    }
+//    else if (trackedCard == Gorillamon_BT1_037)
+//    {
+//        DisplayName.text = "Gorillamon_BT1_037";
+//    }
+    // Add more else if statements for the other cards/
+//}
+//
+//
+//
+// Below is me playing with what co-pilot gave me 
+// I was chatting to Naoise about the below and I actually don't need it XD
+//    private void DisplayName(Interactions_BT1_028 trackedCard)
+//        {
+//            if (trackedCard == Elecmon_BT1_028)
+//            {
+//                Elecmon_BT1_028.UpdateNameDisplay();
+//            }
+            // Add more else if statements for the other cards
+//        } 
         public void DisplayLevel()
     {
         Gorillamon_BT1_037.UpdateLevelDisplay();
