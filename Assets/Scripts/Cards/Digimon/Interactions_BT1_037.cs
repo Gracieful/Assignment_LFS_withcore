@@ -37,7 +37,7 @@ public class Interactions_BT1_037 : MonoBehaviour
     public TMP_Text EvolutionText;
     public TMP_Text CostText;
 
-    public void UpdateDPDisplay(TMP_Text DPText)
+    public void UpdateDPDisplay()
     {
         DPText.text = "DP:" + 6000;
     }
@@ -61,6 +61,17 @@ public class Interactions_BT1_037 : MonoBehaviour
     {
         CostText.text = "Play Cost:" + "6 Memory";
     }
+
+//Using the below will make it so that all the text will update at once and I can add one function to Unity rather than 6
+        public void Everything()
+        {
+            UpdateDPDisplay();
+            UpdateNameDisplay();
+            UpdateLevelDisplay();
+            UpdateEffectDisplay();
+            UpdateEvolutionDisplay();
+            UpdateCostDisplay();
+        }
         // Start is called before the first frame update
         //  void Start()
         //{

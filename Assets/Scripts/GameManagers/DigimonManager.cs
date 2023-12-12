@@ -5,6 +5,10 @@ using TMPro;
 using UnityEngine.UI;
 using UnityEngine.UIElements.Experimental;
 
+//Thanks to the way Naoise showed me how to set up the cards beign called  I don't really need the manager anymore 
+//But It'll be handy If I need to test anymore cards
+
+
 namespace Digimon
 {
 
