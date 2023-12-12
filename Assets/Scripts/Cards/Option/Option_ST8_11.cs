@@ -1,7 +1,11 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using TMPro;
 
+namespace Option
+
+{
 public class Option_ST8_11 : MonoBehaviour
 
 //Refrences
@@ -20,15 +24,35 @@ public class Option_ST8_11 : MonoBehaviour
 //Main: Unsuspend 1 or yuour blue Digimon
 //Effect:  Security: Add this card to it's owner's hand.
 {
-    // Start is called before the first frame update
-    void Start()
+    public TMP_Text NameText;
+    public TMP_Text EffectText;
+    public TMP_Text CostText;
+
+     public void UpdateNameDisplay()
     {
-        
+        NameText.text = "Name:" + "Victory Sword";
     }
 
-    // Update is called once per frame
-    void Update()
+    public void UpdateEffectDisplay()
     {
-        
+        EffectText.text ="Main"+"Unsuspend 1 or yuour blue Digimon"+ "Effect:" + "Security: Add this card to it's owner's hand.";
     }
+      public void UpdateCostDisplay()
+    {
+        CostText.text = "Play Cost:" + "3 Memory";
+    }
+        public void Everything()
+        {
+            UpdateNameDisplay();
+            UpdateEffectDisplay();
+            UpdateCostDisplay();
+        }
+        //copilot autofilled below. Honestly Copilot is a godsend.
+        public void Lost()
+        {
+            NameText.text = "";
+            EffectText.text = "";
+            CostText.text = "";
+        }
+}
 }

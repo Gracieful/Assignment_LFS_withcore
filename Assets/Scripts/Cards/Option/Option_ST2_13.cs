@@ -1,8 +1,9 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using TMPro;
 
-namespace Option.HammerSpark_ST2_13
+namespace Option
 
 {
 public class Option_ST2_13 : MonoBehaviour
@@ -22,18 +23,38 @@ public class Option_ST2_13 : MonoBehaviour
 //Play Cost: 0
 //Main: Gain 1 Memory
 //Effect:  Security: Gain 2 memory. 
-
 {
-    // Start is called before the first frame update
-    void Start()
+    public TMP_Text NameText;
+    public TMP_Text EffectText;
+    public TMP_Text CostText;
+
+     public void UpdateNameDisplay()
     {
-        
+        NameText.text = "Name:" + "Hammer Spark";
     }
 
-    // Update is called once per frame
-    void Update()
+    public void UpdateEffectDisplay()
     {
-        
+        EffectText.text = "Main"+ "Gain 1 Memory" +"Effect:" + "Security: Gain 2 memory.";
     }
+      public void UpdateCostDisplay()
+    {
+        CostText.text = "Play Cost:" + "0 Memory";
+    }
+        public void Everything()
+        {
+            UpdateNameDisplay();
+            UpdateEffectDisplay();
+            UpdateCostDisplay();
+        }
+        //copilot autofilled below. Honestly Copilot is a godsend.
+        public void Lost()
+        {
+            NameText.text = "";
+            EffectText.text = "";
+            CostText.text = "";
+        }
+
 }
+
 }

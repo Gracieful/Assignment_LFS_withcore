@@ -1,7 +1,14 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using TMPro;
 
+//Given the way I've been calling the functions for the digimon, I probably don't need a namespace but it's better to be safe than sorry
+//I might need it once more cards get added 
+
+namespace Egg
+
+{
 public class Egg_Interactions_ST8_01 : MonoBehaviour
 
 //Refrences
@@ -19,15 +26,38 @@ public class Egg_Interactions_ST8_01 : MonoBehaviour
 //Effect: Your Turn: While you have 8 or more cards in your hand, this Digimon gets + 1000 DP 
 
 {
-    // Start is called before the first frame update
-    void Start()
+
+    public TMP_Text NameText;
+    public TMP_Text LevelText;
+    public TMP_Text EffectText;
+    public void UpdateNameDisplay()
     {
-        
+        NameText.text = "Name:" + "DemiVeemon";
     }
 
-    // Update is called once per frame
-    void Update()
+    public void UpdateLevelDisplay()
     {
-        
+        LevelText.text = "Level:" + "2";
     }
+
+    public void UpdateEffectDisplay()
+    {
+        EffectText.text = "Effect:" + "Your Turn: While you have 8 or more cards in your hand, this Digimon gets + 1000 DP";
+    }
+        public void Everything()
+        {
+            UpdateNameDisplay();
+            UpdateLevelDisplay();
+            UpdateEffectDisplay();
+        }
+        //copilot autofilled below. Honestly Copilot is a godsend.
+        public void Lost()
+        {
+            NameText.text = "";
+            LevelText.text = "";
+            EffectText.text = "";
+        }
+        
+
+}
 }

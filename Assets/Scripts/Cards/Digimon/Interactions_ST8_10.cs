@@ -78,6 +78,17 @@ public class Interactions_ST8_10 : MonoBehaviour
             UpdateEvolutionDisplay();
             UpdateCostDisplay();
         }
+
+        //copilot autofilled below. Honestly Copilot is a godsend.
+        public void Lost()
+        {
+            DPText.text = "";
+            NameText.text = "";
+            LevelText.text = "";
+            EffectText.text = "";
+            EvolutionText.text = "";
+            CostText.text = "";
+        }
         
         // Start is called before the first frame update
         //  void Start()
