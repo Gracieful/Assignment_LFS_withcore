@@ -1,6 +1,6 @@
 # Software CA - AR/VR Unity Project 
 
-The aim of this assignement is to make an AR/VR game. I have decided to make an AR version of the Digimon trading card game (TCG) 
+The aim of this assignement is to make an AR/VR game using Unity and Vuforia. I have decided to make an AR version of the Digimon trading card game (TCG) 
 
 I have the current cards set up and the asset and card art is refrenced in the code for each card.
 
