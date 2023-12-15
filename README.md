@@ -10,8 +10,8 @@ The current list of cards the assignment is set up for is as follows;
 
 ## Eggs
 
-+ DemiVeemon (ST8-01)
-+ Tsunomon (ST2-01)
+- DemiVeemon (ST8-01)
+- Tsunomon (ST2-01)
 
 ## Digimon
 
