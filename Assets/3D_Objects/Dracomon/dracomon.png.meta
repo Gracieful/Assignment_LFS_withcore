@@ -164,7 +164,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Dracomon_0: -7483175255056259453
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -3,6 +3,8 @@ using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
 
+//For the asset I wasn't sure what to use so I created a partical system for it. The texture of the partical system is the card art.
+
 namespace Option
 
 {

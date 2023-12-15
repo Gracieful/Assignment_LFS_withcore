@@ -164,7 +164,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Gomamon_0: -7850933465113270888
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

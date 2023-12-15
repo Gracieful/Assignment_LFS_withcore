@@ -164,7 +164,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Monzaemon_0: -604431074510753229
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

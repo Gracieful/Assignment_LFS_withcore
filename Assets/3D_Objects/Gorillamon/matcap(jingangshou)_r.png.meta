@@ -164,7 +164,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      matcap(jingangshou)_r_0: 7269042489072774787
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
