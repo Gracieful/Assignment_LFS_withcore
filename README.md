@@ -32,6 +32,8 @@ The current list of cards the assignment is set up for is as follows;
 ## Options
 + Hammer Spark (ST2-13) 	
 + Victory Sword (ST8-11) 	
-+ V-Wing Blade (ST8-12) 
++ V-Wing Blade (ST8-12)
+
+## Trainers
 
  
