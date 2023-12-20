@@ -36,7 +36,7 @@ The current list of cards the assignment is set up for is as follows;
 
 ## Trainers
 
-#Refrences 
+# Refrences 
 
 + AeroVeedRamon - Digimon TCG Card Database - digimoncard.io (no date). https://digimoncard.io/card/AeroVeedramon-st8-08. BT1-038 C 
 + Monzaemon - BT1-038 (ST8 reprint) (no date). https://kaiofcards.com/products/bt1-038-c-monzaemon-bt1-038-st8-reprint
