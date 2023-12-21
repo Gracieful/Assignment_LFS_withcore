@@ -1,6 +1,8 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using TMPro;
+using JetBrains.Annotations;
 
 //Refrence: I followed lecture 6 for this 
 
@@ -12,6 +14,8 @@ namespace GameManagers
 public class Gamemanager : MonoBehaviour
 {
     public static Gamemanager Instance;
+
+    public TMP_Text rulesText;
 
     public int score;
 
@@ -72,6 +76,13 @@ public class Gamemanager : MonoBehaviour
         {
             ResetScore();
         }
+
+//below not working yet
+        if(Input.GetKeyDown(KeyCode.R))
+        {
+            ToggleRuleMenu();
+            rulesText.text = "Rules:" + "The game is played by two players. Each player has a deck of 50 cards, and a 'Raising Area' where they place their Digimon cards. The aim of the game is to defeat all of the opponent's Digimon cards. The game is played in turns, with each player's turn consisting of three phases: Raising, Main, and End. During the Raising Phase, the player can play a Digimon card from their hand onto their Raising Area. During the Main Phase, the player can play Option cards from their hand, evolve their Digimon cards, or attack with their Digimon cards. During the End Phase, the player discards cards from their hand until they have 4 cards in their hand. The game ends when one player has no Digimon cards left in their Raising Area. The player with Digimon cards remaining is the winner.";
+        }
     }
 
     //Everything else 
@@ -115,6 +126,29 @@ public class Gamemanager : MonoBehaviour
         }
         uIManager.TogglePauseMenu(isPaused);
         //Manages if UI elements will appear 
+    }
+
+    public void ToggleRuleMenu()
+    {
+        //robbed below from the pause menu
+        isPaused = !isPaused;
+        if(isPaused)
+        {
+            Time.timeScale = 0;
+            //By setting this to 0 it stops the game loop of Update. Events will still run 
+
+            //You need to add the name of the audio file you want for the pause menu where it says "Pause"
+
+        }
+        else
+        {
+            Time.timeScale = 1;
+            //0 = off, 1 = on
+            
+            //You need to add the name of the audio file you want for when unpausing the game
+        }
+        
+
     }
         
 }

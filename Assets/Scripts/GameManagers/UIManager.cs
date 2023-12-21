@@ -7,13 +7,21 @@ using TMPro;
 //I had also used some of the Vuforia Starter tools for the image decetion so the UI was already kind of created 
 //I jsut couldn't see it oriignally as I had the play screen zoomed in 
 
+//Added the rule section as I realised that might be needed for the game.
+
 namespace GameManagers
 {
 public class UIManager : MonoBehaviour
+
+
 {
     public TMP_Text scoreText;
-    public GameObject pauseMenu;
 
+  
+    public GameObject pauseMenu;
+    public GameObject Rules;
+
+//I commented the score out when I thought I didn't need it anymoer and everything kinda broke so it's staying put
     public void UpdateScoreDisplay(int score)
     {
         scoreText.text = "DP:" + score;
@@ -28,5 +36,11 @@ public class UIManager : MonoBehaviour
     {
         pauseMenu.SetActive(isPaused);
     }
+
+        public void ToggleRuleMenu(bool isPaused)
+    {
+        Rules.SetActive(isPaused);
+    }
+
 }
 }
