@@ -83,6 +83,12 @@ public class Gamemanager : MonoBehaviour
             ToggleRuleMenu();
             rulesText.text = "Rules:" + "The game is played by two players. Each player has a deck of 50 cards, and a 'Raising Area' where they place their Digimon cards. The aim of the game is to defeat all of the opponent's Digimon cards. The game is played in turns, with each player's turn consisting of three phases: Raising, Main, and End. During the Raising Phase, the player can play a Digimon card from their hand onto their Raising Area. During the Main Phase, the player can play Option cards from their hand, evolve their Digimon cards, or attack with their Digimon cards. During the End Phase, the player discards cards from their hand until they have 4 cards in their hand. The game ends when one player has no Digimon cards left in their Raising Area. The player with Digimon cards remaining is the winner.";
         }
+        
+        if(Input.GetKeyUp(KeyCode.R))
+        {
+            ToggleRuleMenu();
+            rulesText.text = "";
+        }
     }
 
     //Everything else 
